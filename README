@@ -14,3 +14,24 @@ Ausführung
 > scala ChatServer
 
 > scala ChatClient <port>
+
+Beispiel
+--------
+Zum Testen sollten drei Kommandozeilenfenster geöffnet werden.
+Im ersten wird der Server gestartet. Dies geschieht wie oben beschrieben
+mittels "scala ChatServer"
+
+Im zweiten Fenster wird der erste Client gestartet.
+> scala ChatClient 1235
+
+Der zweite Client wird im dritten Fenster gestartet.
+> scala ChatClient 1236
+
+Nun kann man sich mittels der Nachricht "LOGIN:username" 
+mit dem Server verbinden. Diese Nachricht wird in der grafischen
+Benutzeroberfläche in das Eingabefeld eingegeben. 
+
+Beide Clients sollten natürlich unterschiedliche Nutzernamen verwenden.
+Wenn beide Clients eine Erfolgsmeldung vom Server erhalten haben, so können
+einige Nachrichten versendet werden.
+
