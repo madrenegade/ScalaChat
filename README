@@ -1,3 +1,9 @@
+Dies ist ein sehr einfaches Chat-Programm. Es wurde als Beispiel für die 
+Einfachheit der Sprache sowie zur Nutzung von RemoteActors entworfen.
+In welcher anderen Sprache kann man eine Client-Server Anwendung 
+mit grafischer Benutzeroberfläche in weniger als 150 Zeilen Quelltext ausdrücken?
+
+
 Kompilation
 -----------
 > scalac ChatClient.scala
