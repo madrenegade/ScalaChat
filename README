@@ -1,0 +1,10 @@
+Kompilation
+-----------
+> scalac ChatClient.scala
+> scalac ChatServer.scala
+
+Ausführung
+----------
+> scala ChatServer
+
+> scala ChatClient <port>
