@@ -14,7 +14,7 @@ object ChatServer extends App with Actor {
   println("ChatServer started at port %d".format(port))
 
   val loginMessage = """LOGIN:(\w+):(\d+)""".r
-  val incomingMessage = """SEND:(\w+):(\w+)""".r
+  val incomingMessage = """SEND:(\w+):([\w\s,.]+)""".r
 
   def act {
     loop {

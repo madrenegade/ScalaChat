@@ -68,7 +68,7 @@ object ChatClient extends SimpleSwingApplication with Actor {
 
   val loginMessage = """OUT:LOGIN:(\w+)""".r
   val loginSucceeded = "SERVER:LOGIN_SUCCEEDED".r
-  val sendMessage = """OUT:(\w+)""".r
+  val sendMessage = """OUT:([\w\s,.]+)""".r
 
   var server: AbstractActor = null
 
